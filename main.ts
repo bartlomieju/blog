@@ -1,8 +1,8 @@
-import blog from "http://localhost:4507/blog.tsx";
+import blog from "https://deno.land/x/blog@0.0.2/blog.tsx";
 
 blog({
   title: "My blog",
-  author: "An author",
+  author: "Bartek Iwańczuk",
   header: "This is my new blog",
   style: "body { padding: 32px 0; background-color: #f0f0f0; }",
 
